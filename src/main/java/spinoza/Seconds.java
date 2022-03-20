@@ -2,7 +2,6 @@ package spinoza;
 
 // Seconds class: converts seconds to days, hours, and minutes
 public class Seconds {
-
 	// constants
 	final static int SECONDS_PER_MINUTE = 60; // Seconds in a minute
 	final static int MINUTES_PER_HOUR = 60; // minutes in an hour
@@ -60,5 +59,5 @@ public class Seconds {
 
 		return seconds;
 	}
-    
+
 }
