@@ -58,17 +58,20 @@ public class ConverterView {
 		ButtonConvert.addActionListener(Controller.ConvertButtonListener);
 		
 		// initialize Labels
-		JLabel LabelFahrenheit = new JLabel("Fahrenheit");
-		JLabel LabelCelsius = new JLabel("Celsius");
-		JLabel LabelKelvin = new JLabel("Kelvin");
+		JLabel LabelFahrenheit = new JLabel("Fahrenheit:");
+		JLabel LabelCelsius = new JLabel("Celsius:");
+		JLabel LabelKelvin = new JLabel("Kelvin:");
 		
 		// initialize JTextField for Output Results
 		ResultsFahrenheit = new JTextField();
 		ResultsFahrenheit.setColumns(10);
+		ResultsFahrenheit.setEditable(false);
 		ResultsCelsius = new JTextField();
 		ResultsCelsius.setColumns(10);
+		ResultsCelsius.setEditable(false);
 		ResultsKelvin = new JTextField();
 		ResultsKelvin.setColumns(10);
+		ResultsKelvin.setEditable(false);
 		
 		// Clear All Button
 		JButton ButtonClear = new JButton("Clear All");
@@ -158,18 +161,18 @@ public class ConverterView {
 		InfoLabel = new JLabel();
 		
 		// Output Results in TextFields
-		// Days
-		ResultsDays = new JTextField();
+		ResultsDays = new JTextField(); // Days
 		ResultsDays.setColumns(10);
-		// Hours
-		ResultsHours = new JTextField();
+		ResultsDays.setEditable(false);
+		ResultsHours = new JTextField(); // Hours
 		ResultsHours.setColumns(10);
-		// Minutes
-		ResultsMinutes = new JTextField();
+		ResultsHours.setEditable(false);
+		ResultsMinutes = new JTextField(); // Minutes
 		ResultsMinutes.setColumns(10);
-		// Seconds
-		ResultsSeconds = new JTextField();
+		ResultsMinutes.setEditable(false);
+		ResultsSeconds = new JTextField(); // Seconds
 		ResultsSeconds.setColumns(10);
+		ResultsSeconds.setEditable(false);
 		
 		// labels
 		JLabel LabelDays = new JLabel("Days");

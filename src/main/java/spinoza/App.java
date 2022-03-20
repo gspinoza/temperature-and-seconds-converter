@@ -7,7 +7,7 @@ public class App {
 
 	public static void main(String[] args) {
 		// Create and set up the frame or window.
-		JFrame myframe = new JFrame("CSC 110 Programs");
+		JFrame myframe = new JFrame("Coverter Tool");
 		myframe.setSize(500, 380);
 		myframe.setResizable(true);
 
